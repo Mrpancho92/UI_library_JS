@@ -1,0 +1,19 @@
+@import './general/base';
+@import './general/variables';
+@import './general/typography';
+@import './components/ui.scss';
+@import './helpers/classes.scss';
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
+textarea {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0,0,0,0);
+    display: block;
+    border: 1px solid #BBB;
+  }
+
