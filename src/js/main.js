@@ -78,3 +78,13 @@ import $ from './lib/lib';
 
 // $().get('https://jsonplaceholder.typicode.com/todos/1')
 //     .then(res => console.log(res));
+
+
+// $('button').on('click', function() {
+//     $('div').eq(0);
+// });
+
+$('div').click(function() {
+   console.log( $(this).index());
+    console.log(this);
+});

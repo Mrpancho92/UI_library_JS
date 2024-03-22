@@ -66,9 +66,10 @@
         font-size: 40px;
         transition: opacity 0.15s ease;
         text-decoration: none;
+       
         &:hover {
             opacity: 0.9;
-            background-color: rgba(0,0,0, 0.2);
+            background-color: rgba(0,0,0, 0.3);
         }
     }
     &-prev {
